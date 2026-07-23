@@ -88,8 +88,9 @@ export function Hero({
           animate={{ y: [0, 8, 0] }}
           transition={{ duration: 2, repeat: Infinity }}
           className="absolute bottom-8 left-1/2 -translate-x-1/2"
+          style={{ top:2, position:'relative',marginTop:'30px'}}
         >
-          <div className="text-[#d4af37] text-sm uppercase tracking-wider font-medium">
+          <div className="text-[#d4af37] text-sm uppercase tracking-wider font-medium" >
             Scroll to explore
           </div>
         </motion.div>

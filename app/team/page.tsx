@@ -2,7 +2,8 @@
 
 import { TEAM } from '@/lib/constants';
 import { ScrollReveal } from '@/components/animations/scroll-reveal';
-import { Instagram, Linkedin } from 'lucide-react';
+import { LinkedIn, Instagram } from '@mui/icons-material';
+
 
 export default function TeamPage() {
   return (
@@ -69,7 +70,7 @@ export default function TeamPage() {
                           className="text-[#666666] hover:text-[#d4af37] transition-colors"
                           aria-label="Instagram"
                         >
-                          <Instagram size={20} />
+                          <Instagram />
                         </a>
                       )}
                       {member.social.linkedin && (
@@ -78,7 +79,7 @@ export default function TeamPage() {
                           className="text-[#666666] hover:text-[#d4af37] transition-colors"
                           aria-label="LinkedIn"
                         >
-                          <Linkedin size={20} />
+                          <LinkedIn/>
                         </a>
                       )}
                     </div>
